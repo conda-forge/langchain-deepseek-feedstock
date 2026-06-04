@@ -1,6 +1,6 @@
 context:
   name: langchain-deepseek
-  version: "1.0.1"
+  version: "1.1.0"
   python_min: "3.10"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/langchain_deepseek-${{ version }}.tar.gz
-  sha256: e7a0238f2c14e928e1562641b2df639c19cdf867287a7f2293ffb1372daf83ae
+  sha256: 5ec8128cabae3d71366e2f297dea2153649be317a4be7f135cfcad1160523bf6
 
 build:
   number: 0
@@ -23,8 +23,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - langchain-core >=1.0.0,<2.0.0
-    - langchain-openai >=1.0.0,<2.0.0
+    - langchain-core >=1.4.0,<2.0.0
+    - langchain-openai >=1.1.0,<2.0.0
 
 tests:
   - python:

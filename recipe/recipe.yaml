@@ -23,8 +23,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - langchain-core >=1.0.0,<2.0.0
-    - langchain-openai >=1.0.0,<2.0.0
+    - langchain-core >=1.4.0,<2.0.0
+    - langchain-openai >=1.1.0,<2.0.0
 
 tests:
   - python:

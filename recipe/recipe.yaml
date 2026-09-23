@@ -30,8 +30,9 @@ tests:
   - python:
       imports:
         - langchain_deepseek
-      pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: An integration package connecting DeepSeek and LangChain

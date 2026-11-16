@@ -1,6 +1,6 @@
 context:
   name: langchain-deepseek
-  version: "1.1.1"
+  version: "1.2.0"
   python_min: "3.10"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/langchain_deepseek-${{ version }}.tar.gz
-  sha256: 94267fb5500813fa41ea4bbc8b523551cfbf58f8966ed3b91dbb8991f8bd70e5
+  sha256: 9da8e09585f1f897c6b633b9ec71ea2b32312a9b6c2a10240f6f575fee733a68
 
 build:
   number: 0

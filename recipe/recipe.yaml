@@ -1,7 +1,6 @@
 context:
   name: langchain-deepseek
   version: "1.2.0"
-  python_min: "3.10"
 
 package:
   name: ${{ name|lower }}
@@ -23,7 +22,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - langchain-core >=1.4.7,<2.0.0
+    - langchain-core >=1.5.1,<2.0.0
     - langchain-openai >=1.3.1,<2.0.0
 
 tests:
